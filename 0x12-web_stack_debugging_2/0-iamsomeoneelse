@@ -1,0 +1,6 @@
+#!/usr/bin/env bash
+# This script runs the `whoami` command as a specified user.
+# Check if the user argument is provided
+
+sudo -u "$1" whoami
+
